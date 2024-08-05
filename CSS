@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: "Roboto," "Arial", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2020;
+    transform: translateY(0);
+    transition: transform .3s ease;
+}
+
+.logo {
+    height: 60px;
+    display: block;
+    fill: currentColor;
+    margin: 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid #ccc;
+    padding: 3px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.foto-usuario {
+    height: 40px;
+    border-radius: 100px;
+}
+
+main {
+    margin: 20px;
+}
+
+.texto-principal {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo-dio {
+    width: 30px;
+}
+
+h6 {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DIO {
+    display: flex;
+    display: inline;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    height: auto;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.visualizações {
+    font-size: 15px;
+    font-weight: 200px;
+}
+
+.informação {
+    display: block;
+    text-align: left;
+    margin-right: 150px;
+}
